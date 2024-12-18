@@ -4,17 +4,22 @@ function Contact() {
   return (
     <section className="page-section" id="contact">
       <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        {/* Section Heading */}
+        <h2 className="page-section-heading text-center text-uppercase  mb-0">Contact Me</h2>
+
+        {/* Divider */}
         <div className="divider-custom">
           <div className="divider-custom-line"></div>
           <div className="divider-custom-icon">
-            <i className="fas fa-star"></i>
           </div>
           <div className="divider-custom-line"></div>
         </div>
+
+        {/* Contact Form */}
         <div className="row justify-content-center">
           <div className="col-lg-8 col-xl-7">
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form id="contactForm" >
+              {/* Full Name */}
               <div className="form-floating mb-3">
                 <input
                   className="form-control"
@@ -25,6 +30,8 @@ function Contact() {
                 />
                 <label htmlFor="name">Full Name</label>
               </div>
+
+              {/* Email Address */}
               <div className="form-floating mb-3">
                 <input
                   className="form-control"
@@ -35,17 +42,36 @@ function Contact() {
                 />
                 <label htmlFor="email">Email Address</label>
               </div>
+
+              {/* Phone Number */}
+              <div className="form-floating mb-3">
+                <input
+                  className="form-control"
+                  id="phone"
+                  type="tel"
+                  placeholder="(123) 456-7890"
+                  pattern="^[0-9\-+\s()]*$"
+                  required
+                />
+                <label htmlFor="phone">Phone Number</label>
+              </div>
+
+              {/* Message */}
               <div className="form-floating mb-3">
                 <textarea
                   className="form-control"
                   id="message"
                   placeholder="Enter your message here..."
-                  style={{ height: '10rem' }}
+                  style={{ height: '8rem' }}
                   required
                 ></textarea>
                 <label htmlFor="message">Message</label>
               </div>
-              <button className="btn btn-primary btn-xl" type="submit">Send</button>
+
+              {/* Submit Button */}
+              <button className="btn  btn-xl" type="submit">
+                Send
+              </button>
             </form>
           </div>
         </div>

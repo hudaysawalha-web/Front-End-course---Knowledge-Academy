@@ -1,5 +1,4 @@
 import React from 'react';
-import './assest/css/styles.css';
 import './App.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';

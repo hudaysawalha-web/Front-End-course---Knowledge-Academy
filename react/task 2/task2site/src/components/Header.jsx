@@ -3,7 +3,7 @@ import avataaars from '../assest/img/portfolio/avataaars.svg';
 
 function Header() {
   return (
-    <header className="masthead bg-primary text-white text-center">
+    <header className="masthead  text-white text-center">
       <div className="container d-flex align-items-center flex-column">
         <img
           className="masthead-avatar mb-5"
