@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50 !important;
+}
+
+.navbar-brand {
+  color: #ecf0f1 !important;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: #ecf0f1 !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #18bc9c !important;
+}
+
+/* About Section */
+#about {
+  background-color: #18bc9c;
+  color: #ffffff;
+  padding: 100px 0;
+}
+
+#about .lead {
+  font-size: 1.2rem;
+  color: #f8f9fa;
+}
+
+/* Contact Section */
+#contact {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+#contact input,
+#contact textarea {
+  border: 1px solid #2c3e50;
+}
+
+#contact button {
+  background-color: #18bc9c;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+#contact button:hover {
+  background-color: #128f76;
+  cursor: pointer;
+}
