@@ -326,3 +326,25 @@ footer .copyright {
   margin-top: 40px;
   padding: 10px 0;
 }
+
+.icon-circle {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 50%;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icon-circle:hover {
+  background-color: white;
+  color: #2C3E50;
+}
+
+.icon-circle i {
+  font-size: 1.5rem;
+}

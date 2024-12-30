@@ -19,7 +19,7 @@ function Portfolio() {
   return (
     <section className="page-section portfolio" id="portfolio">
       <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase  mb-0">
+        <h2 className="page-section-heading text-center text-uppercase  mb-0 p-5">
           Portfolio
         </h2>
         <div className="divider-custom">

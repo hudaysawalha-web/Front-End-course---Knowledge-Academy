@@ -5,7 +5,7 @@ function Contact() {
     <section className="page-section" id="contact">
       <div className="container">
         {/* Section Heading */}
-        <h2 className="page-section-heading text-center text-uppercase  mb-0">Contact Me</h2>
+        <h2 className="page-section-heading text-center text-uppercase  mb-0 p-5">Contact Me</h2>
 
         {/* Divider */}
         <div className="divider-custom">

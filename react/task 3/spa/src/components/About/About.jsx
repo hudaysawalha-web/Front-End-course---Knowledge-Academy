@@ -5,7 +5,7 @@ function About() {
     <section className="about-section" id="about">
       <div className="container">
         {/* Section Heading */}
-        <h2 className="about-heading text-center">About</h2>
+        <h2 className="about-heading text-center p-5">About</h2>
 
         {/* Divider */}
         <div className="divider-custom">

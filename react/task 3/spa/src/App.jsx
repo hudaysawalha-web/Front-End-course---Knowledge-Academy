@@ -12,6 +12,7 @@ export default function App() {
     <div>
        <Navbar/>
       <Routes>
+       
         <Route path='/' element={<Header/>}></Route>
         <Route path='/about'  element={ <About />}></Route>
         <Route path='/Contact' element={ <Contact/>} ></Route>
