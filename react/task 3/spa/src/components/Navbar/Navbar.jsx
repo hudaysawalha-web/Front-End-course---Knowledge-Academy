@@ -27,7 +27,7 @@ function Navbar() {
               <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/about'}>About</Link>
             </li>
             <li className="nav-item mx-0 mx-lg-1">
-              <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/contact'}>Contact</Link>
+              <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/Contact'}>Contact</Link>
             </li>
           </ul>
         </div>
